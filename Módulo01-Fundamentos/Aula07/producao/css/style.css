@@ -6,27 +6,36 @@ h1 {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    color: purple;
+    color: #800080;
 }
-.dados-pessoais{
+
+.personal-data {
     margin: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
+     list-style-type: disc;
+}
+li {
+    list-style-type: disc;
 }
 
 #dados {
     margin-left: 50x;
-    list-style-type: disc;
 }
 
 table, tr, td, th {
     padding: 5px;
-    border: 1px solid gray;
+    border: 1.5px solid gray;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 th {
     background-color: #dddddd;
+}
+
+.emphasis {
+    font-weight: bold;
+    color: darkgreen;
 }
