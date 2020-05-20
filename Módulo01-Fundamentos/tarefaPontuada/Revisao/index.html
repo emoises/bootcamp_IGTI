@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="elementos">
+        <div class="textos">
+            <h1>Alterando a cor do background</h1>
+            <h2><strong>Escolha sua cor preferida</strong></h2>
+        </div>
+        <div  style="height: 120px;">
+            <div class="principal" style="background-color: aliceblue;">
+                <div id="divTitles" class="main" >
+                    <div class="titles"><span class="textoRgb" id="redTitle"
+                            style="background-color: rgb(255, 0, 0); width: 150px;">Vermelho (r):</span></div>
+                    <div class="titles"><span class="textoRgb" id="greenTitle" style="background-color: rgb(0, 255, 0); ">Verde
+                            (g):</span></div>
+                    <div class="titles"><span class="textoRgb" id="blueTitle" style="background-color: rgb(0, 0, 255);">Azul
+                            (b):</span></div>
+                </div>
+                <div class="main" style="width: 300px;">
+                    <input type="range" min="0" max="255" value="255" id="redSlider" class="rangeButton">
+                    <input type="range" min="0" max="255" value="255" id="greenSlider" class="rangeButton">
+                    <input type="range" min="0" max="255" value="255" id="blueSlider" class="rangeButton">
+                </div>
+                <div class="main" id='textBoxRGB'>
+                    <input class="colorValues" type="text" disabled=true id="redValue">
+                    <input class="colorValues" type="text" disabled=true id="greenValue">
+                    <input class="colorValues" type="text" disabled=true id="blueValue">
+                </div>
+            </div>
+        </div>
+        <div style="border-radius: 10px ; width: 100px; height: 100px;" id="square"></div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
