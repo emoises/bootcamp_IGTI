@@ -12,17 +12,14 @@ const utils = {
         })
     },
     changeValue: function(){
-        index.forEach(Element => {
-            spanArray[Element].value = sliderArray[Element].value;
-        });
+        index.forEach(Element => {spanArray[Element].value = sliderArray[Element].value;});
     },
     changeColor: function(){
         color='rgb('
         index.forEach(Element => {
             color += sliderArray[Element].value +','
         });
-        square.style.background = color.slice(0, color.length - 1)+')';
-    }
+        square.style.background = color.slice(0, color.length - 1)+')';}
 }
 window.addEventListener('load', utils.start())
 sliderArray.forEach(Element => {
