@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    margin-top: 20px;
+}
+.cabecario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+.cabecario .input {
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 5px;
+    left: 10px;
+}
+.cabecario .link {
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.cabecario a {
+    margin-top: 20px;
+    margin-left: 10px auto;
+}
+.body-container {
+    margin-top: 20px;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#user-container, #statistic-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid;
+}
+.user-container {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    color: darkslategrey;
+    border-radius: 2%;
+    border: 2px solid cadetblue;
+    margin-bottom: 5px;
+    margin: 10px auto;
+    padding: 5px auto;
+    
+}
+.user-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.user-container span {
+    margin-left: 10px;
+    margin-top: 28px;
+}
+.card-content p {
+    font-size: 16px;
+}
+#statistic-container li {
+    font-size: 16px;
+    font-weight: 100;
+    left: 0px;
+}
+#statistic-container ul {
+    width: 90%;
+}
+.indeterminate {
+    margin-top: 0px;
+    background-color: darkgoldenrod;
+}
+#statistic-list {
+    width: 90%;
+}
+#statistic-list li {
+    margin-left: 10px;
+}
+.title-container {
+    margin-bottom: 100px;
+}
+.preloader-wrapper {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.card {
+    width: 500px;
+}
+.statistic-span {
+    margin-bottom: 800px;
+}
+/* .cabecario .label-name::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+} */
